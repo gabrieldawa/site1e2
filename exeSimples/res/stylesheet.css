@@ -1,0 +1,103 @@
+:root{
+    --yell: #fcf79b;
+    --teal: #0e7071;
+    --redd: #fc3a3a;
+}
+
+@font-face {
+    font-family: norw;
+    src: url(norwester.otf);
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: norw;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: var(--redd);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-size: 22pt;
+    width: 100%;
+    height: 2em;
+    
+    text-align: center;
+    align-content: center;
+}
+
+footer{
+    background-color: var(--teal);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    font-size: 12pt;
+    width: 100%;
+    height: 4em;
+
+    text-align: center;
+    align-content: center;
+
+    padding-top: 2% 10% 10% 2%;
+}
+
+#flexContainer{
+    top: 0;
+    left: 0;
+    width: 99%;
+    height:99vh;
+    border: greenyellow 0px solid;
+
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexItem{
+    border: var(--yell) 4px solid;
+    box-shadow: 0 0 1px 1px var(--yell), inset 0 0 1px 1px var(--yell);
+
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    align-items: center;
+    max-width: 250px;
+    padding: 6px;
+    margin: 15px;
+}
+
+.itemImage{
+    width: 200px;
+    height:auto;
+    margin: 4px;
+}
+
+hr{
+    box-shadow: 0 0 1px 1px var(--yell);
+    color:var(--yell);
+    background-color: var(--yell);
+    width: 90%;
+}
+
+.itemTitle{
+    font-size:17pt;
+    color: var(--yell);
+    text-shadow: 0 0 2px var(--yell);
+}
+
+.itemParagraph{
+    font-size: 8pt;
+    text-align: center;
+    margin: 0 1em 0.5em 1em;
+}

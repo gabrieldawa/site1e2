@@ -1,0 +1,221 @@
+:root{
+    --yell: #fcf79b;
+    --teal: #0e7071;
+    --redd: #e70013;
+}
+
+@font-face {
+    font-family: norw;
+    src: url(norwester.otf);
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: norw;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: var(--redd);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-size: 22pt;
+    width: 100%;
+    height: 2em;
+    
+    text-align: center;
+    align-content: center;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding: 0 0.5em 0 0.5em;
+    margin: 0;
+    color: whitesmoke;
+}
+
+.il{
+    color:black;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+hr{
+    box-shadow: 0 0 1px 1px var(--yell);
+    color:var(--yell);
+    background-color: var(--yell);
+    width: 90%;
+}
+
+footer{
+    background-color: var(--teal);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    font-size: 12pt;
+    width: 100%;
+    height: 4em;
+
+    text-align: center;
+    align-content: center;
+
+    padding-top: 2% 10% 10% 2%;
+}
+
+#menubar{
+    list-style-type: none;
+    margin: 0;
+
+    text-align: center;
+    align-content: center;
+}
+
+#flexContainer{
+    top: 0;
+    left: 0;
+    width: 99%;
+    height:99vh;
+    border: greenyellow 0px solid;
+
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#wimg{
+    height:15vh;
+    
+}
+
+#quarterbox{
+    width: 35%;
+    padding: 2%;
+    justify-content: center;
+}
+
+/*sephirah*/
+
+.boxSeph{
+    font-family: norw;
+    flex-flow: column; 
+    height: 10em;
+    width: 10em;
+    justify-content: center;
+    align-items: center;
+}
+
+.butSeph{
+    background-color: black;
+    font-family: norw;
+    height: 10em;
+    width: 10em;;
+}
+
+#kaballah{
+    margin-top: 10%;
+    flex-flow: row wrap; 
+    max-width: 33em; 
+    justify-content: center;
+    align-items: center;
+}
+
+#kabSide{
+    max-width: 15em; 
+    min-width:15em;
+    height: 75vh;
+    margin: 0 10vh 0 10vh;
+}
+
+#sephImg{
+    max-width: 14em; 
+    max-height: 75vh;
+}
+
+#malk{
+    border: #fcf79b 5px solid;
+    color: #fcf79b;
+}
+#malk:active{
+    background-color:#fcf79b;
+}
+
+#netz{
+    border: #6aa345 5px solid;
+    color: #6aa345;
+}
+#netz:active{
+    background-color:#6aa345;
+}
+
+#yeso{
+    border: #847789 5px solid;
+    color: #847789;
+}
+#yeso:active{
+    background-color:#847789;
+}
+
+#hodd{
+    border: #da7f30 5px solid;
+    color: #da7f30;
+}
+#hodd:active{
+    background-color:#da7f30;
+}
+
+#ches{
+    border: #446ffa 5px solid;
+    color: #446ffa;
+}
+#ches:active{
+    background-color:#446ffa;
+}
+
+#tiph{
+    border: #fdc50c 5px solid;
+    color: #fdc50c;
+}
+#tiph:active{
+    background-color:#fdc50c;
+}
+
+#gebu{
+    border: #b32b25 5px solid;
+    color: #b32b25;
+}
+#gebu:active{
+    background-color:#b32b25;
+}
+
+#hokm{
+    border: #5f5f5f 5px solid;
+    color: #5f5f5f;
+}
+#hokm:active{
+    background-color:#5f5f5f;
+}
+
+#bina{
+    border: #2d2d2d 5px solid;
+    color: #2d2d2d;
+}
+#bina:active{
+    background-color:#2d2d2d;
+}
